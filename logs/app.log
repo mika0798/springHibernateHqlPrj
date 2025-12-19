@@ -1,0 +1,1274 @@
+2025-12-19T22:08:10.828+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 111684 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:08:10.829+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T22:08:10.860+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19T22:08:10.860+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19T22:08:11.141+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:08:11.151+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:08:11.353+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:08:11.360+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:08:11.360+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:08:11.375+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 515 ms
+2025-12-19T22:08:11.407+07:00  WARN 111684 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'inMemoryDatabaseShutdownExecutor' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-12-19T22:08:11.409+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:08:11.415+07:00  INFO 111684 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:08:11.422+07:00 ERROR 111684 --- [springHibernateHqlPrj] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-12-19T22:10:23.695+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 111868 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:10:23.697+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T22:10:23.722+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19T22:10:23.723+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19T22:10:24.013+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:10:24.025+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:10:24.266+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:10:24.274+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:10:24.274+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:10:24.299+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 576 ms
+2025-12-19T22:10:24.340+07:00  WARN 111868 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'inMemoryDatabaseShutdownExecutor' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-12-19T22:10:24.342+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:10:24.349+07:00  INFO 111868 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:10:24.357+07:00 ERROR 111868 --- [springHibernateHqlPrj] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-12-19T22:11:29.057+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112002 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:11:29.058+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T22:11:29.083+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19T22:11:29.084+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19T22:11:29.369+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:11:29.378+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:11:29.578+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:11:29.585+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:11:29.585+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:11:29.600+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 516 ms
+2025-12-19T22:11:29.632+07:00  WARN 112002 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'inMemoryDatabaseShutdownExecutor' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-12-19T22:11:29.634+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:11:29.640+07:00  INFO 112002 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:11:29.646+07:00 ERROR 112002 --- [springHibernateHqlPrj] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-12-19T22:12:41.192+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112210 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:12:41.193+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:12:41.217+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19T22:12:41.217+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19T22:12:41.492+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:12:41.503+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:12:41.720+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:12:41.727+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:12:41.727+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:12:41.743+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 526 ms
+2025-12-19T22:12:41.806+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-19T22:12:42.022+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72822201
+2025-12-19T22:12:42.023+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-19T22:12:42.041+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:12:42.068+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2025-12-19T22:12:42.279+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:12:42.333+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:12:42.514+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:12:42.519+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:12:42.550+07:00  WARN 112210 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:12:42.719+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:12:42.722+07:00  INFO 112210 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 1.743 seconds (process running for 2.041)
+2025-12-19T22:13:02.773+07:00  INFO 112210 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:13:02.775+07:00  INFO 112210 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:13:02.778+07:00  INFO 112210 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:13:02.780+07:00  INFO 112210 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-19T22:13:02.784+07:00  INFO 112210 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-19T22:13:03.920+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:13:03.921+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:13:03.948+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19T22:13:03.948+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19T22:13:04.251+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:13:04.263+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:13:04.483+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:13:04.489+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:13:04.490+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:13:04.505+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 557 ms
+2025-12-19T22:13:04.562+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-19T22:13:04.767+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e05aafa
+2025-12-19T22:13:04.768+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-19T22:13:04.791+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:13:04.814+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2025-12-19T22:13:05.011+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:13:05.062+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:13:05.234+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:13:05.238+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:13:05.271+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:13:05.442+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:13:05.446+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 1.74 seconds (process running for 2.042)
+2025-12-19T22:13:12.224+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-19T22:13:12.226+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:13:12.227+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:13:12.229+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:13:12.231+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-19T22:13:12.234+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-19T22:13:12.279+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:13:12.280+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:13:12.344+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:13:12.346+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:13:12.384+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:13:12.385+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:13:12.385+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:13:12.389+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 108 ms
+2025-12-19T22:13:12.406+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-12-19T22:13:12.418+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c5c5aad
+2025-12-19T22:13:12.418+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-12-19T22:13:12.419+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:13:12.429+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:13:12.431+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:13:12.441+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:13:12.442+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:13:12.457+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:13:12.503+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:13:12.505+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.237 seconds (process running for 9.101)
+2025-12-19T22:13:12.506+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:14:24.939+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:14:24.939+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:14:24.940+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:14:24.941+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:14:24.941+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-12-19T22:14:24.944+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-12-19T22:14:24.998+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:14:24.999+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:14:25.057+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:14:25.058+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:14:25.091+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:14:25.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:14:25.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:14:25.096+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 96 ms
+2025-12-19T22:14:25.112+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:14:25.121+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:14:25.121+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-12-19T22:14:25.133+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79205401
+2025-12-19T22:14:25.133+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-12-19T22:14:25.135+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:14:25.136+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:14:25.143+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:14:25.144+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:14:25.161+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:14:25.220+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:14:25.222+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.236 seconds (process running for 81.819)
+2025-12-19T22:14:25.222+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:15:12.642+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-19T22:15:12.644+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:15:12.646+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:15:12.649+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:15:12.651+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-12-19T22:15:12.656+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-12-19T22:15:12.710+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:15:12.710+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:15:12.756+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:15:12.757+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:15:12.782+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:15:12.783+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:15:12.783+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:15:12.786+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 75 ms
+2025-12-19T22:15:12.799+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:15:12.806+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:15:12.807+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-12-19T22:15:12.818+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60fbfce1
+2025-12-19T22:15:12.818+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-12-19T22:15:12.819+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:15:12.819+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:15:12.826+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:15:12.827+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:15:12.840+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:15:12.893+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:15:12.894+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.198 seconds (process running for 129.491)
+2025-12-19T22:15:12.895+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:15:39.301+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-12-19T22:15:39.303+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:15:39.305+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:15:39.307+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:15:39.308+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-12-19T22:15:39.314+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-12-19T22:15:39.364+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:15:39.364+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:15:39.406+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:15:39.407+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:15:39.432+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:15:39.433+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:15:39.433+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:15:39.436+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2025-12-19T22:15:39.448+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:15:39.456+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:15:39.456+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-12-19T22:15:39.467+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cc31e93
+2025-12-19T22:15:39.467+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-12-19T22:15:39.468+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:15:39.469+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:15:39.513+07:00 ERROR 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Association 'com.project.springHibernateHqlPrj.entity.User.profile' targets the type 'com.project.springHibernateHqlPrj.entity.Profile' which is not an '@Entity' type
+2025-12-19T22:15:39.514+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Association 'com.project.springHibernateHqlPrj.entity.User.profile' targets the type 'com.project.springHibernateHqlPrj.entity.Profile' which is not an '@Entity' type
+2025-12-19T22:15:39.514+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-12-19T22:15:39.515+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-12-19T22:15:39.515+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:15:39.522+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:15:39.530+07:00 ERROR 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Association 'com.project.springHibernateHqlPrj.entity.User.profile' targets the type 'com.project.springHibernateHqlPrj.entity.Profile' which is not an '@Entity' type
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at com.project.springHibernateHqlPrj.SpringHibernateHqlPrjApplication.main(SpringHibernateHqlPrjApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: org.hibernate.MappingException: Association 'com.project.springHibernateHqlPrj.entity.User.profile' targets the type 'com.project.springHibernateHqlPrj.entity.Profile' which is not an '@Entity' type
+	at org.hibernate.boot.model.internal.OneToOneSecondPass.bindUnowned(OneToOneSecondPass.java:91) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.OneToOneSecondPass.doSecondPass(OneToOneSecondPass.java:77) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1771) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1737) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:330) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:199) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 18 common frames omitted
+
+2025-12-19T22:17:38.013+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:17:38.013+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:17:38.056+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:17:38.057+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:17:38.086+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:17:38.087+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:17:38.087+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:17:38.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 78 ms
+2025-12-19T22:17:38.107+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:17:38.115+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:17:38.115+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-12-19T22:17:38.128+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bcceed4
+2025-12-19T22:17:38.128+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-12-19T22:17:38.129+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:17:38.129+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:17:38.335+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:17:38.516+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:17:38.530+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:17:38.578+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:17:38.579+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.575 seconds (process running for 275.176)
+2025-12-19T22:17:38.580+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:18:33.996+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-12-19T22:18:33.997+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:18:33.997+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:18:33.998+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:18:33.998+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-12-19T22:18:34.000+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-12-19T22:18:34.049+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:18:34.050+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:18:34.096+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:18:34.097+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:18:34.126+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:18:34.127+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:18:34.127+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:18:34.130+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 80 ms
+2025-12-19T22:18:34.146+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:18:34.155+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:18:34.155+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-12-19T22:18:34.166+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3daa96bc
+2025-12-19T22:18:34.166+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-12-19T22:18:34.167+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:18:34.168+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:18:34.205+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:18:34.230+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:18:34.243+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:18:34.291+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:18:34.292+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.253 seconds (process running for 330.889)
+2025-12-19T22:18:34.292+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:18:35.686+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-19T22:18:35.688+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-24] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:18:35.690+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:18:35.692+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:18:35.693+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-12-19T22:18:35.699+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-12-19T22:18:35.744+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:18:35.744+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:18:35.786+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:18:35.787+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:18:35.812+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:18:35.812+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:18:35.812+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:18:35.815+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 70 ms
+2025-12-19T22:18:35.828+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:18:35.835+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:18:35.835+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-12-19T22:18:35.846+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea92fa2
+2025-12-19T22:18:35.846+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-12-19T22:18:35.847+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:18:35.847+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:18:35.873+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:18:35.886+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:18:35.898+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:18:35.941+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:18:35.942+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.206 seconds (process running for 332.539)
+2025-12-19T22:18:35.942+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:19:45.773+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:19:45.775+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-28] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:19:45.777+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:19:45.779+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:19:45.780+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-12-19T22:19:45.785+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-12-19T22:19:45.840+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:19:45.841+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:19:45.882+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:19:45.883+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:19:45.908+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:19:45.908+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:19:45.909+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:19:45.911+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 70 ms
+2025-12-19T22:19:45.924+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:19:45.931+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:19:45.931+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-12-19T22:19:45.942+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59646cdf
+2025-12-19T22:19:45.942+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-12-19T22:19:45.943+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:19:45.943+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:19:45.961+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:19:45.981+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:19:45.997+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:19:46.047+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:19:46.048+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.22 seconds (process running for 402.645)
+2025-12-19T22:19:46.048+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:19:57.445+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-12-19T22:19:57.446+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-32] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:19:57.446+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:19:57.447+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:19:57.448+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-12-19T22:19:57.449+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-12-19T22:19:57.491+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:19:57.491+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:19:57.534+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:19:57.535+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:19:57.560+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:19:57.560+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:19:57.560+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:19:57.563+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2025-12-19T22:19:57.576+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:19:57.584+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:19:57.584+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-12-19T22:19:57.595+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58ceb097
+2025-12-19T22:19:57.595+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-12-19T22:19:57.596+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:19:57.596+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:19:57.597+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: com/project/springHibernateHqlPrj/User
+2025-12-19T22:19:57.597+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-12-19T22:19:57.598+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-12-19T22:19:57.598+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:19:57.599+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:19:57.600+07:00 ERROR 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: com/project/springHibernateHqlPrj/User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at com.project.springHibernateHqlPrj.SpringHibernateHqlPrjApplication.main(SpringHibernateHqlPrjApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: java.lang.NoClassDefFoundError: com/project/springHibernateHqlPrj/User
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329) ~[na:na]
+	at org.hibernate.models.internal.jdk.JdkClassDetails.getMethods(JdkClassDetails.java:216) ~[hibernate-models-1.0.1.jar:na]
+	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:268) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:233) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:166) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:371) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:217) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:247) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:190) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:291) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:325) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:199) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.project.springHibernateHqlPrj.entity.User
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:547) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
+	... 42 common frames omitted
+
+2025-12-19T22:20:16.022+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:20:16.022+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:20:16.064+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:20:16.065+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:20:16.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:20:16.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:20:16.093+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:20:16.096+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 74 ms
+2025-12-19T22:20:16.109+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:20:16.117+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:20:16.117+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2025-12-19T22:20:16.128+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33da326b
+2025-12-19T22:20:16.128+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2025-12-19T22:20:16.129+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:20:16.130+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:20:16.149+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:20:16.161+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:20:16.172+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:20:16.214+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:20:16.215+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.201 seconds (process running for 432.812)
+2025-12-19T22:20:16.216+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:20:34.616+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-12-19T22:20:34.616+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-36] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:20:34.617+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:20:34.618+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:20:34.618+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2025-12-19T22:20:34.620+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2025-12-19T22:20:34.667+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:20:34.667+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:20:34.724+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:20:34.725+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:20:34.752+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:20:34.753+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:20:34.753+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:20:34.756+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 88 ms
+2025-12-19T22:20:34.769+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:20:34.777+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:20:34.777+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2025-12-19T22:20:34.788+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57eedb2f
+2025-12-19T22:20:34.788+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2025-12-19T22:20:34.789+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:20:34.789+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:20:34.790+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: com/project/springHibernateHqlPrj/Profile
+2025-12-19T22:20:34.790+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2025-12-19T22:20:34.791+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2025-12-19T22:20:34.791+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-19T22:20:34.792+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19T22:20:34.793+07:00 ERROR 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: com/project/springHibernateHqlPrj/Profile
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at com.project.springHibernateHqlPrj.SpringHibernateHqlPrjApplication.main(SpringHibernateHqlPrjApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: java.lang.NoClassDefFoundError: com/project/springHibernateHqlPrj/Profile
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329) ~[na:na]
+	at org.hibernate.models.internal.jdk.JdkClassDetails.getMethods(JdkClassDetails.java:216) ~[hibernate-models-1.0.1.jar:na]
+	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:268) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:233) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:166) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:371) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:217) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:247) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:190) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:291) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:325) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:199) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.project.springHibernateHqlPrj.entity.Profile
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:547) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
+	... 42 common frames omitted
+
+2025-12-19T22:21:12.222+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:21:12.223+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:21:12.275+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:21:12.276+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:21:12.301+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:21:12.301+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:21:12.301+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:21:12.304+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 81 ms
+2025-12-19T22:21:12.317+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:21:12.325+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:21:12.325+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2025-12-19T22:21:12.336+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c11961f
+2025-12-19T22:21:12.336+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2025-12-19T22:21:12.336+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:21:12.337+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:21:12.357+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:21:12.369+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:21:12.380+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:21:12.422+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:21:12.423+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.207 seconds (process running for 489.02)
+2025-12-19T22:21:12.423+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:22:01.843+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-19T22:22:01.845+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-43] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:22:01.847+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:22:01.848+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:22:01.850+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2025-12-19T22:22:01.854+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2025-12-19T22:22:01.906+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:22:01.906+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:22:01.950+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:22:01.950+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:22:01.977+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:22:01.977+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:22:01.977+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:22:01.980+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 73 ms
+2025-12-19T22:22:01.993+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:22:02.000+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:22:02.000+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2025-12-19T22:22:02.011+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@279261c6
+2025-12-19T22:22:02.011+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2025-12-19T22:22:02.011+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:22:02.012+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:22:02.040+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:22:02.053+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:22:02.105+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:22:02.150+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:22:02.151+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.253 seconds (process running for 538.748)
+2025-12-19T22:22:02.151+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:22:19.554+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:22:19.555+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-50] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:22:19.557+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:22:19.559+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:22:19.560+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2025-12-19T22:22:19.564+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2025-12-19T22:22:19.611+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:22:19.611+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:22:19.653+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:22:19.654+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:22:19.678+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:22:19.678+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:22:19.678+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:22:19.681+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 69 ms
+2025-12-19T22:22:19.693+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:22:19.701+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:22:19.701+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2025-12-19T22:22:19.712+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ac5e6de
+2025-12-19T22:22:19.712+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2025-12-19T22:22:19.712+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:22:19.713+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:22:19.737+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:22:19.750+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:22:19.767+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:22:19.807+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:22:19.808+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.205 seconds (process running for 556.405)
+2025-12-19T22:22:19.809+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:23:03.630+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-12-19T22:23:03.632+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-54] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:23:03.634+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:23:03.636+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-54] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:23:03.637+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2025-12-19T22:23:03.641+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2025-12-19T22:23:03.697+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:23:03.697+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:23:03.740+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:23:03.741+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:23:03.767+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:23:03.767+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:23:03.767+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:23:03.771+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2025-12-19T22:23:03.783+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:23:03.790+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:23:03.791+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2025-12-19T22:23:03.801+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@544cd28f
+2025-12-19T22:23:03.801+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2025-12-19T22:23:03.802+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:23:03.802+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:23:03.828+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:23:03.840+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:23:03.856+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:23:03.895+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:23:03.896+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.213 seconds (process running for 600.493)
+2025-12-19T22:23:03.896+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:24:19.735+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-12-19T22:24:19.736+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-58] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:24:19.738+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:24:19.740+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:24:19.741+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2025-12-19T22:24:19.745+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2025-12-19T22:24:19.798+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:24:19.798+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:24:19.842+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:24:19.843+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:24:19.868+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:24:19.868+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:24:19.868+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:24:19.871+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2025-12-19T22:24:19.883+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:24:19.891+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:24:19.892+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2025-12-19T22:24:19.904+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3670f925
+2025-12-19T22:24:19.904+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2025-12-19T22:24:19.905+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:24:19.905+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:24:19.929+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:24:19.947+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:24:19.966+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:24:20.012+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:24:20.013+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.227 seconds (process running for 676.61)
+2025-12-19T22:24:20.014+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:28:02.939+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:28:02.940+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-62] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:28:02.941+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:28:02.941+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:28:02.942+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2025-12-19T22:28:02.944+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2025-12-19T22:28:02.990+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:28:02.991+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:28:03.037+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:28:03.038+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:28:03.065+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:28:03.065+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:28:03.065+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:28:03.068+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 77 ms
+2025-12-19T22:28:03.082+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:28:03.089+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:28:03.090+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2025-12-19T22:28:03.100+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d3d1598
+2025-12-19T22:28:03.100+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2025-12-19T22:28:03.101+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:28:03.101+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:28:03.128+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:28:03.141+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:28:03.159+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:28:03.205+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:28:03.207+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.225 seconds (process running for 899.803)
+2025-12-19T22:28:03.207+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:28:24.610+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:28:24.611+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-66] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:28:24.612+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:28:24.613+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-66] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:28:24.613+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2025-12-19T22:28:24.615+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2025-12-19T22:28:24.661+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:28:24.661+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:28:24.707+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:28:24.709+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:28:24.736+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:28:24.737+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:28:24.737+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:28:24.740+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 79 ms
+2025-12-19T22:28:24.754+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:28:24.762+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:28:24.763+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2025-12-19T22:28:24.773+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c3160f9
+2025-12-19T22:28:24.773+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2025-12-19T22:28:24.774+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:28:24.775+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:28:24.794+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:28:24.809+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:28:24.828+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:28:24.871+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:28:24.872+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.22 seconds (process running for 921.469)
+2025-12-19T22:28:24.873+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:29:43.388+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19T22:29:43.388+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-19T22:29:43.389+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-19T22:33:17.445+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-19T22:33:17.446+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-70] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:33:17.447+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:33:17.448+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-70] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:33:17.448+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2025-12-19T22:33:17.449+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2025-12-19T22:33:17.499+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:33:17.500+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:33:17.549+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:33:17.550+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:33:17.584+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:33:17.585+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:33:17.585+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:33:17.588+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 88 ms
+2025-12-19T22:33:17.604+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:33:17.613+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:33:17.614+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2025-12-19T22:33:17.628+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection com.mysql.cj.jdbc.ConnectionImpl@281a763e
+2025-12-19T22:33:17.628+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2025-12-19T22:33:17.629+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:33:17.630+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:33:17.661+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:33:17.770+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:33:17.789+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:33:17.841+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:33:17.842+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.353 seconds (process running for 1214.439)
+2025-12-19T22:33:17.843+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:33:41.248+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:33:41.250+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-74] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:33:41.252+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:33:41.254+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-74] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:33:41.255+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2025-12-19T22:33:41.259+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2025-12-19T22:33:41.321+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:33:41.321+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:33:41.364+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:33:41.365+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:33:41.389+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:33:41.389+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:33:41.390+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:33:41.392+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 70 ms
+2025-12-19T22:33:41.405+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:33:41.412+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:33:41.412+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2025-12-19T22:33:41.422+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b247856
+2025-12-19T22:33:41.422+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2025-12-19T22:33:41.423+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:33:41.424+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:33:41.449+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:33:41.460+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:33:41.476+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:33:41.515+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:33:41.516+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.205 seconds (process running for 1238.113)
+2025-12-19T22:33:41.516+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:35:42.390+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-19T22:35:42.391+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-78] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:35:42.391+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:35:42.392+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-78] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:35:42.392+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-78] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2025-12-19T22:35:42.395+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-78] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2025-12-19T22:35:42.441+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:35:42.441+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:35:42.484+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:35:42.485+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:35:42.510+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:35:42.510+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:35:42.510+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:35:42.513+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2025-12-19T22:35:42.525+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:35:42.533+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:35:42.533+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2025-12-19T22:35:42.544+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection com.mysql.cj.jdbc.ConnectionImpl@703cff96
+2025-12-19T22:35:42.544+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2025-12-19T22:35:42.544+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:35:42.545+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:35:42.605+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:35:42.614+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:35:42.630+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:35:42.674+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:35:42.675+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.242 seconds (process running for 1359.272)
+2025-12-19T22:35:42.675+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:36:45.513+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:36:45.515+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-82] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:36:45.516+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:36:45.518+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-82] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:36:45.519+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2025-12-19T22:36:45.523+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+2025-12-19T22:36:45.576+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:36:45.576+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:36:45.619+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:36:45.620+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:36:45.644+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:36:45.644+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:36:45.644+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:36:45.647+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 70 ms
+2025-12-19T22:36:45.659+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:36:45.666+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:36:45.666+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2025-12-19T22:36:45.676+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d44b421
+2025-12-19T22:36:45.676+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2025-12-19T22:36:45.677+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:36:45.677+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:36:45.710+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:36:45.721+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:36:45.737+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:36:45.778+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:36:45.779+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.213 seconds (process running for 1422.376)
+2025-12-19T22:36:45.779+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:39:08.255+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 6 deletions, 0 modifications)
+2025-12-19T22:39:08.255+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-86] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:39:08.256+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:39:08.257+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-86] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:39:08.257+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2025-12-19T22:39:08.259+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+2025-12-19T22:39:08.304+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:39:08.304+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:39:08.350+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:39:08.351+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:39:08.378+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:39:08.378+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:39:08.378+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:39:08.381+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 76 ms
+2025-12-19T22:39:08.394+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:39:08.403+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:39:08.403+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2025-12-19T22:39:08.414+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2980640c
+2025-12-19T22:39:08.414+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2025-12-19T22:39:08.415+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:39:08.415+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:39:08.451+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:39:08.463+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:39:08.480+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:39:08.525+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:39:08.526+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.23 seconds (process running for 1565.123)
+2025-12-19T22:39:08.527+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:39:09.920+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+2025-12-19T22:39:09.922+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-90] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:39:09.924+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:39:09.926+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-90] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:39:09.927+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2025-12-19T22:39:09.931+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2025-12-19T22:39:09.992+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:39:09.992+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:39:10.034+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:39:10.034+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:39:10.058+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:39:10.058+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:39:10.058+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:39:10.061+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 68 ms
+2025-12-19T22:39:10.073+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:39:10.080+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:39:10.081+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2025-12-19T22:39:10.091+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33815141
+2025-12-19T22:39:10.091+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2025-12-19T22:39:10.091+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:39:10.092+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:39:10.117+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:39:10.127+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:39:10.142+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:39:10.181+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:39:10.181+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.199 seconds (process running for 1566.778)
+2025-12-19T22:39:10.182+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:40:12.615+07:00  INFO 112365 --- [springHibernateHqlPrj] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-19T22:40:12.615+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-94] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:40:12.616+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:40:12.617+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-94] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:40:12.617+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-94] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2025-12-19T22:40:12.618+07:00  INFO 112365 --- [springHibernateHqlPrj] [Thread-94] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2025-12-19T22:40:12.665+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Starting SpringHibernateHqlPrjApplication using Java 25.0.1 with PID 112365 (/home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/springHibernateHqlPrj)
+2025-12-19T22:40:12.666+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : The following 1 profile is active: "dev"
+2025-12-19T22:40:12.710+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T22:40:12.711+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-12-19T22:40:12.734+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-19T22:40:12.735+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-19T22:40:12.735+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-19T22:40:12.738+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2025-12-19T22:40:12.750+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2025-12-19T22:40:12.757+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19T22:40:12.757+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2025-12-19T22:40:12.768+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Added connection com.mysql.cj.jdbc.ConnectionImpl@81ad451
+2025-12-19T22:40:12.768+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2025-12-19T22:40:12.769+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19T22:40:12.769+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/userData]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: userData/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-19T22:40:12.800+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19T22:40:12.810+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:40:12.827+07:00  WARN 112365 --- [springHibernateHqlPrj] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T22:40:12.868+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-19T22:40:12.869+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] c.p.s.SpringHibernateHqlPrjApplication   : Started SpringHibernateHqlPrjApplication in 0.211 seconds (process running for 1629.466)
+2025-12-19T22:40:12.869+07:00  INFO 112365 --- [springHibernateHqlPrj] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-19T22:40:52.932+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19T22:40:52.932+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-19T22:40:52.932+07:00  INFO 112365 --- [springHibernateHqlPrj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-19T22:43:05.829+07:00  INFO 112365 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19T22:43:05.830+07:00  INFO 112365 --- [springHibernateHqlPrj] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-19T22:43:05.830+07:00  INFO 112365 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T22:43:05.831+07:00  INFO 112365 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2025-12-19T22:43:05.832+07:00  INFO 112365 --- [springHibernateHqlPrj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
