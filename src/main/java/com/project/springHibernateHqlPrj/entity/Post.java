@@ -23,7 +23,7 @@ public class Post {
     private String content;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")  // This is the foreign key to the User table
+    @JoinColumn(name = "user_id")
     private User user;
 
     public Post(String content, User user) {
